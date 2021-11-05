@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<title>JWD Final Project</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <!--Title -->
+    <div class="container con">
+        <h1 class="display-1 text-center head">JWD FINAL PROJECT</h1>
+        <div class="row mb-5"></div>
+        <div class="col">
+            <!-- ./Title-->
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="enter name"
+                        placeholder="Enter your name.">
+                </div>
+                <div class="form-group">
+                    <label for="Des">Description:</label>
+                    <textarea class="form-control" id="Des" rows="4" placeholder="Enter decription."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="assignedto">Assigned To:</label>
+                    <select type="text" class="form-control" id="assignedto">
+                        <option value="" selected disabled>Select assignee.</option>
+                        <option>Muhsinah Sims</option>
+                        <option>Justin Gonzalez</option>
+                        <option>Mario Carrillo</option>
+                        <option>Janie Morton</option>
+                        <option>Shakera Syeda</option>
+                        <option>Hanah Lewis</option>
+                    </select>
+                </div>
+                <div class="form-row md-form md-outline input-width-post">
+                    <div class="form-group col">
+                        <label for="duedate">Due Date:</label>
+                        <div class="input-group">
+                            <input class="form-control left-border-none" name="duedate" id="duedate" value="">
+                            <div class="input-group-text">
+                                <span class="input-group-addon transparent">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Shakera code below -->
+                    <div class="form-group col">
+                        <label for="status">Status:</label>
+                        <select type="text" class="form-control" id="assignedto">
+                            <option value="" selected disabled>Select Status</option>
+                            <option>TODO</option>
+                            <option>IN PROGRESS</option>
+                            <option>REVIEW</option>
+                            <option>DONE</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- shakera code./ends here -->
+                <button type="submit" class="btn btn-secondary">Submit</button>
+            </form>
+        </div>
+    </div>
+    <hr>
+
+    <!--BEGINNING OF LIST GROUP-->
+    <div id="list-group">
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+
+                <div class="card" style=" border-radius: 40px; background-color: #D6B1A9  ">
+
+                    <div class="card-body">
+                        <h5 class="card-title ctitle">Task 1</h5>
+                        <div class="card-block">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" style="border-radius: 15px;"
+                                aria-describedby="
+                        enter name">
+                        </div>
+                        <div class="card-block">
+                            <label for="Des">Description:</label>
+                            <textarea class="form-control" id="Des" rows="4"></textarea>
+                        </div>
+                        <div class="card-block">
+                            <label for="assignedto">Assigned To:</label>
+                            <input type="text" class="form-control" id="assignedto" style="border-radius: 15px;"
+                                aria-describedby="
+                        assign name">
+                            <div class=" row md-col md-outline input-width-post">
+                                <div class="card-block col">
+                                    <label for="duedate">Due Date:</label>
+                                    <div class="input-group">
+                                        <input class="form-control left-border-none" name="duedate" id="duedate"
+                                            value="">
+                                        <div class=" input-group-text">
+                                            <span class="input-group-addon transparent">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Shakera code below -->
+                                <div class="card-block col">
+                                    <label for="status">Status:</label>
+                                    <input type="text" class="form-control" id="status" style="border-radius: 15px;"
+                                        aria-describedby="
+                        status">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="col mb-4">
+                <div class="card" style=" border-radius: 40px; background-color: #1A87FD  ">
+
+                   
+                    <div class="card-body">
+                        <h5 class="card-title ctitle">Task 2</h5>
+                        <div class="card-block">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" style="border-radius: 15px;"
+                                aria-describedby="
+                        enter name">
+                        </div>
+                        <div class="card-block">
+                            <label for="Des">Description:</label>
+                            <textarea class="form-control" id="Des" rows="4"></textarea>
+                        </div>
+                        <div class="card-block">
+                            <label for="assignedto">Assigned To:</label>
+                            <input type="text" class="form-control" id="assignedto" style="border-radius: 15px;"
+                                aria-describedby="
+                        assign name">
+                            <div class=" row md-col md-outline input-width-post">
+                                <div class="card-block col">
+                                    <label for="duedate">Due Date:</label>
+                                    <div class="input-group">
+                                        <input class="form-control left-border-none" name="duedate" id="duedate"
+                                            value="">
+                                        <div class=" input-group-text">
+                                            <span class="input-group-addon transparent">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Shakera code below -->
+                                <div class="card-block col">
+                                    <label for="status">Status:</label>
+                                    <input type="text" class="form-control" id="status" style="border-radius: 15px;"
+                                        aria-describedby="
+                        status">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card" style=" border-radius: 40px; background-color: #0D5FF1 ">
+
+                   
+                    <div class="card-body">
+                        <h5 class="card-title ctitle">Task 3</h5>
+                        <div class="card-block">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" style="border-radius: 15px;"
+                                aria-describedby="
+                        enter name">
+                        </div>
+                        <div class="card-block">
+                            <label for="Des">Description:</label>
+                            <textarea class="form-control" id="Des" rows="4"></textarea>
+                        </div>
+                        <div class="card-block">
+                            <label for="assignedto">Assigned To:</label>
+                            <input type="text" class="form-control" id="assignedto" style="border-radius: 15px;"
+                                aria-describedby="
+                        assign name">
+                            <div class=" row md-col md-outline input-width-post">
+                                <div class="card-block col">
+                                    <label for="duedate">Due Date:</label>
+                                    <div class="input-group">
+                                        <input class="form-control left-border-none" name="duedate" id="duedate"
+                                            value="">
+                                        <div class=" input-group-text">
+                                            <span class="input-group-addon transparent">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Shakera code below -->
+                                <div class="card-block col">
+                                    <label for="status">Status:</label>
+                                    <input type="text" class="form-control" id="status" style="border-radius: 15px;"
+                                        aria-describedby="
+                        status">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card" style=" border-radius: 40px; background-color: #000  ">
+
+                    
+                    <div class="card-body">
+                        <h5 class="card-title ctitle">Task 4</h5>
+                        <div class="card-block">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" style="border-radius: 15px;"
+                                aria-describedby="
+                        enter name">
+                        </div>
+                        <div class="card-block">
+                            <label for="Des">Description:</label>
+                            <textarea class="form-control" id="Des" rows="4"></textarea>
+                        </div>
+                        <div class="card-block">
+                            <label for="assignedto">Assigned To:</label>
+                            <input type="text" class="form-control" id="assignedto" style="border-radius: 15px;"
+                                aria-describedby="
+                        assign name">
+                            <div class=" row md-col md-outline input-width-post">
+                                <div class="card-block col">
+                                    <label for="duedate">Due Date:</label>
+                                    <div class="input-group">
+                                        <input class="form-control left-border-none" name="duedate" id="duedate"
+                                            value="">
+                                        <div class=" input-group-text">
+                                            <span class="input-group-addon transparent">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Shakera code below -->
+                                <div class="card-block col">
+                                    <label for="status">Status:</label>
+                                    <input type="text" class="form-control" id="status" style="border-radius: 15px;"
+                                        aria-describedby="
+                        status">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="col mb-4">
+                <div class="card" style=" border-radius: 40px; background-color: #068E4F  ">
+
+                   
+                    <div class="card-body">
+                        <h5 class="card-title ctitle">Task 5</h5>
+                        <div class="card-block">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" style="border-radius: 15px;"
+                                aria-describedby="
+                        enter name">
+                        </div>
+                        <div class="card-block">
+                            <label for="Des">Description:</label>
+                            <textarea class="form-control" id="Des" rows="4"></textarea>
+                        </div>
+                        <div class="card-block">
+                            <label for="assignedto">Assigned To:</label>
+                            <input type="text" class="form-control" id="assignedto" style="border-radius: 15px;"
+                                aria-describedby="
+                        assign name">
+                            <div class=" row md-col md-outline input-width-post">
+                                <div class="card-block col">
+                                    <label for="duedate">Due Date:</label>
+                                    <div class="input-group">
+                                        <input class="form-control left-border-none" name="duedate" id="duedate"
+                                            value="">
+                                        <div class=" input-group-text">
+                                            <span class="input-group-addon transparent">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Shakera code below -->
+                                <div class="card-block col">
+                                    <label for="status">Status:</label>
+                                    <input type="text" class="form-control" id="status" style="border-radius: 15px;"
+                                        aria-describedby="
+                        status">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+    </div>
+
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
